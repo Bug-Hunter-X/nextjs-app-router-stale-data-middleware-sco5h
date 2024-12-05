@@ -1,0 +1,1 @@
+In Next.js 15, using the `app` directory with dynamic routes and middleware might lead to unexpected behavior if not handled carefully. For instance, during a transition between pages, stale data from a previous fetch might be used in a component that has already re-rendered.
